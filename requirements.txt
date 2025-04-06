@@ -1,0 +1,23 @@
+# 📦 Cliente oficial do Appium para Python
+# Usado para se comunicar com o servidor Appium (iniciar sessão, localizar elementos, etc.)
+appium-python-client==3.1.1
+
+# 📦 Pure-Python ADB
+# Permite interação com dispositivos Android diretamente via Python (sem precisar do adb.exe externo)
+pure-python-adb==0.3.0.dev0
+
+# ✅ Framework de testes
+# Usado para estruturar e executar seus testes automatizados
+pytest==7.4.4
+
+# 📊 Geração de relatórios HTML após a execução dos testes
+# O relatório mostra quais testes passaram, falharam, logs, prints, etc.
+pytest-html==3.2.0
+
+# ⚙️ Execução paralela de testes
+# Útil para rodar vários testes simultaneamente, economizando tempo
+pytest-xdist==3.5.0
+
+# 🔁 Reexecuta testes que falham automaticamente
+# Ideal para testes instáveis que podem falhar ocasionalmente por motivos externos
+pytest-rerunfailures==11.1.2
