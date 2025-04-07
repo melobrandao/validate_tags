@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1c4317e-2d19-464a-b352-6e4be95f3a76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ValidarTags.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/appium_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/desired_capabilities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elementos/menu_lateral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pagina/pag_menu_lateral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/validar_menu_lateral.py" afterDir="false" />
+    <list default="true" id="b1c4317e-2d19-464a-b352-6e4be95f3a76" name="Changes" comment="Implementar validaçao de tags">
+      <change afterPath="$PROJECT_DIR$/elementos/idle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/desired_capabilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/desired_capabilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagina/pag_menu_lateral.py" beforeDir="false" afterPath="$PROJECT_DIR$/pagina/pag_menu_lateral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/validar_menu_lateral.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/validar_menu_lateral.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +27,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;melobrandao&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/melobrandao/validate_tags.git&quot;,
+    &quot;accountId&quot;: &quot;97a40000-f578-48fe-a14b-1a0883b38c4a&quot;
+  }
+}</component>
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2vJ5uXoT0c6Z7axX63VmlwXR0tq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,8 +56,12 @@
     "Python.appium_server.executor": "Run",
     "Python.menu_lateral.executor": "Run",
     "Python.pag_menu_lateral.executor": "Run",
+    "Python.validar_menu_lateral.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/ValidarTags",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,7 +86,39 @@
       <option name="presentableId" value="Default" />
       <updated>1743850559808</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementar validaçao de tags">
+      <option name="closed" value="true" />
+      <created>1743966212820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743966212820</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implementar validaçao de tags">
+      <option name="closed" value="true" />
+      <created>1743966217007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743966217007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementar validaçao de tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar validaçao de tags" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

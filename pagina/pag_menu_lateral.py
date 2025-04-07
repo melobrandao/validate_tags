@@ -2,8 +2,8 @@ from elementos.menu_lateral import MenuLateral
 from helpers.helper import AppiumHelper
 
 class PagMenuLateral:
-    def __init__(self):
-        self.helper = AppiumHelper()
+    def __init__(self, driver):
+        self.helper = AppiumHelper(driver)
     def botao_estorno(self):
         return self.helper.verificar_tag(MenuLateral.btn_refund_menu)
 
@@ -55,7 +55,7 @@ class PagMenuLateral:
     def botao_supervisor_options(self):
         return self.helper.verificar_tag(MenuLateral.btn_supervisor_options_menu)
 
-
+'''
 pagina = PagMenuLateral()
 print(pagina.botao_estorno())
 print(pagina.botao_reenviar_comp())
@@ -71,4 +71,4 @@ print(pagina.botao_last_error())
 print(pagina.botao_test())
 print(pagina.botao_device())
 print(pagina.botao_supervisor_options())
-
+'''
